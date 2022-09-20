@@ -6,7 +6,7 @@
 
 //   window.onload = function() {
 //     const forms = document.forms;
-//     forms[0].name.value = "please enter your name";
+//     forms[0].name.value = "test name";
 //   };
 
 
@@ -20,18 +20,18 @@
 //     };
 //   };
   
-  window.onload = confirmSubmit;
+//   window.onload = confirmSubmit;
 
 
-  function confirmSubmit() {
-    const forms = document.forms;
-    forms[0].onsubmit = function(){
-      const name = forms[0].name.value;
-      if (!(confirm(`Mr.${name},do you want to submit this?`))) {
-        alert("cancelled.");
-        return false;
-      }
-    };
-  };
+//   function confirmSubmit() {
+//     const forms = document.forms;
+//     forms[0].onsubmit = function(){
+//       const name = forms[0].name.value;
+//       if (!(confirm(`Mr.${name},do you want to submit this?`))) {
+//         alert("cancelled.");
+//         return false;
+//       }
+//     };
+//   };
   
-  window.onload = confirmSubmit;
+//   window.onload = confirmSubmit;
